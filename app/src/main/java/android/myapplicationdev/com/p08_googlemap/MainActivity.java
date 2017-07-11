@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 //Place some markers
-                final Marker north = map.addMarker(new MarkerOptions()
+                Marker north = map.addMarker(new MarkerOptions()
                         .position(poi_north)
                         .title("HQ - North")
                         .snippet("Block 333, Admiralty Ave 3, 765654 Operating hours: 10am-5pm Tel:65433456")
